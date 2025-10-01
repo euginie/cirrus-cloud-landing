@@ -37,33 +37,31 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto pt-8">
             <div className="backdrop-blur-md bg-card/30 rounded-2xl p-6 border border-card-foreground/10">
               <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                $2.4B+
+                15+
               </div>
-              <div className="text-sm text-muted-foreground mt-1">Total Value Locked</div>
+              <div className="text-sm text-muted-foreground mt-1">Supported Assets</div>
             </div>
             <div className="backdrop-blur-md bg-card/30 rounded-2xl p-6 border border-card-foreground/10">
               <div className="text-3xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-                12.5%
+                Q2 2025
               </div>
-              <div className="text-sm text-muted-foreground mt-1">Average APY</div>
+              <div className="text-sm text-muted-foreground mt-1">Launch Date</div>
             </div>
             <div className="backdrop-blur-md bg-card/30 rounded-2xl p-6 border border-card-foreground/10">
               <div className="text-3xl font-bold text-foreground">
-                500K+
+                3
               </div>
-              <div className="text-sm text-muted-foreground mt-1">Active Users</div>
+              <div className="text-sm text-muted-foreground mt-1">Security Audits</div>
             </div>
           </div>
           
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-            <Button variant="hero" size="lg" className="gap-2">
-              Start Earning
-              <ArrowRight className="w-4 h-4" />
+            <Button variant="hero" size="lg" className="gap-2" disabled>
+              Start Earning (Coming Soon)
             </Button>
-            <Button variant="glass" size="lg" className="gap-2">
-              <TrendingUp className="w-4 h-4" />
-              View Markets
+            <Button variant="glass" size="lg" className="gap-2" disabled>
+              View Markets (Coming Soon)
             </Button>
           </div>
         </div>
