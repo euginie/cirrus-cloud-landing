@@ -1,4 +1,5 @@
 import { Cloud, Twitter, Github, MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -34,7 +35,7 @@ const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li><a href="#" className="hover:text-foreground transition-colors">About</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Careers</a></li>
+              <li><Link to="/careers" className="hover:text-foreground transition-colors">Careers</Link></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Security</a></li>
             </ul>
           </div>
