@@ -21,12 +21,12 @@ const Footer = () => {
           
           {/* Links */}
           <div>
-            <h4 className="font-semibold mb-4">Product</h4>
+            <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Markets</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Dashboard</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Governance</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Docs</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Documentation</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Whitepaper</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Tokenomics</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">FAQ</a></li>
             </ul>
           </div>
           
