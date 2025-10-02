@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Cloud, TrendingUp } from "lucide-react";
+import { ArrowRight, TrendingUp } from "lucide-react";
+import cirrusLogo from "@/assets/cirrus-logo.png";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card/50 backdrop-blur-md border border-card-foreground/10">
-            <Cloud className="w-4 h-4 text-accent" />
+            <img src={cirrusLogo} alt="Cirrus" className="w-4 h-4" />
             <span className="text-sm text-muted-foreground">DeFi Lending Reimagined</span>
           </div>
           
@@ -49,9 +50,9 @@ const Hero = () => {
             </div>
             <div className="backdrop-blur-md bg-card/30 rounded-2xl p-6 border border-card-foreground/10">
               <div className="text-3xl font-bold text-foreground">
-                3
+                99.9%
               </div>
-              <div className="text-sm text-muted-foreground mt-1">Security Audits</div>
+              <div className="text-sm text-muted-foreground mt-1">Uptime Guarantee</div>
             </div>
           </div>
           

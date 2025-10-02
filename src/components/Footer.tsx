@@ -1,5 +1,6 @@
-import { Cloud, Twitter, Github, MessageCircle } from "lucide-react";
+import { Twitter, Github, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import cirrusLogo from "@/assets/cirrus-logo.png";
 
 const Footer = () => {
   return (
@@ -9,8 +10,8 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <Cloud className="w-5 h-5 text-primary-foreground" />
+              <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center p-1">
+                <img src={cirrusLogo} alt="Cirrus Finance" className="w-full h-full object-contain" />
               </div>
               <span className="text-xl font-bold">Cirrus Finance</span>
             </div>
